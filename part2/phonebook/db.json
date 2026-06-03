@@ -1,0 +1,30 @@
+{
+  "persons": [
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": "4"
+    },
+    {
+      "name": "hahaha",
+      "number": "08882392302",
+      "id": "-3nBqSU9WRI"
+    },
+    {
+      "name": "okta ",
+      "number": "0888320",
+      "id": "k_9swob2fco"
+    },
+    {
+      "name": "putri",
+      "number": "02349023",
+      "id": "4NSUUNd3KR8"
+    },
+    {
+      "name": "jadsd",
+      "number": "098329",
+      "id": "XdZCmiTedVQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
