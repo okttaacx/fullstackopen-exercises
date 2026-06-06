@@ -1,0 +1,22 @@
+### Get all persons
+GET http://localhost:3001/api/persons/
+
+### Delete person with ID 2
+DELETE http://localhost:3001/api/persons/2
+
+### Add new person
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Okta Ramji",
+    "number": "08123456789"
+}
+
+### Test Error Validation (Intentionally missing name)
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "number": "08987654321"
+}
