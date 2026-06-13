@@ -1,13 +1,35 @@
-### 
+### get all blogs
 GET http://localhost:3003/api/blogs
 
-### 
+### get all users
+GET http://localhost:3003/api/users
+
+### create blog
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-  "title": "Perjalanan Belajar Full Stack Open",
+  "title": "Full Stack Open Learning Journey",
   "author": "Okta",
   "url": "https://fullstackopen.com/en/part4",
   "likes": 100
+}
+
+### create user
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+  "username": "okta3",
+  "name": "Okta",
+  "password": "rahasia123"
+}
+
+### login
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+  "username": "okta3",
+  "password": "rahasia123"
 }
